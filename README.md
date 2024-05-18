@@ -14,10 +14,17 @@ Then clone it to your local machine and run:
 $ bundle
 ```
 
+If permission on mac occur:
+
+```
+bundle config set --local path 'vendor/bundle'
+bundle install
+```
+
 ## Usage
 
 ```
-jekyll serve
+bundle exec jekyll serve
 ```
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
